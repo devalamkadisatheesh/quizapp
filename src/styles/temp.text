@@ -1,0 +1,24 @@
+quiz-app/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── Authentication.js
+│   │   ├── Quiz.js
+│   │   ├── Question.js
+│   │   ├── Result.js
+│   │   ├── Leaderboard.js
+│   ├── data/
+│   │   ├── questions.js
+│   ├── styles/
+│   │   ├── app.css
+│   ├── App.js
+│   ├── index.js
+│── package.json
+│── README.md
+This React quiz app includes:
+
+Question Bank stored as an object array.
+Timer for each question.
+Scoring system using local storage.
+Leaderboard stored in local storage.
+Styled UI with animations in app.css.
